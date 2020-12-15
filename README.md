@@ -18,7 +18,7 @@ The objective of this project is to build a simple html,CSS and JavaScript page 
 
 ## Screenshots
 
-![Local Storage screen shot](https://github.com/KrystynaMil/Drum-Kit/blob/master/public/images/screen-shot.png)
+![Local Storage screen shot]()
 
 ## Technologies
 
