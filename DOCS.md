@@ -7,7 +7,9 @@
 <!-- BEGIN TOC -->
 
 - [handlers](#handlers)
+  - [add-items.js](#srchandlersadd-itemsjs)
 - [listeners](#listeners)
+  - [add-items.js](#srclistenersadd-itemsjs)
 - [logic](#logic)
 - [data.js](#srcdatajs)
 - [init.js](#srcinitjs)
@@ -28,6 +30,10 @@ Handler function define user interactions. They will:
 - update the DOM to show changes to the user
 - log any important information for developers
 
+---
+
+### [./src/handlers/add-items.js](./src/handlers/add-items.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -39,6 +45,10 @@ Handler function define user interactions. They will:
 Event listeners are used to connect handler functions to user interactions with the DOM.
 
 You can use the same handler in many different listeners, or add more than one listeners to the same DOM element.
+
+---
+
+### [./src/listeners/add-items.js](./src/listeners/add-items.js?study)
 
 [TOP](#DOCS)
 
