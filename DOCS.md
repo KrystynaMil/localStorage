@@ -8,6 +8,7 @@
 
 - [handlers](#handlers)
   - [add-items.js](#srchandlersadd-itemsjs)
+  - [populate-list.js](#srchandlerspopulate-listjs)
   - [toggle-done.js](#srchandlerstoggle-donejs)
 - [listeners](#listeners)
   - [add-items.js](#srclistenersadd-itemsjs)
@@ -35,6 +36,10 @@ Handler function define user interactions. They will:
 ---
 
 ### [./src/handlers/add-items.js](./src/handlers/add-items.js?study)
+
+---
+
+### [./src/handlers/populate-list.js](./src/handlers/populate-list.js?study)
 
 ---
 
