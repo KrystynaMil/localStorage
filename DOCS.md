@@ -8,8 +8,10 @@
 
 - [handlers](#handlers)
   - [add-items.js](#srchandlersadd-itemsjs)
+  - [toggle-done.js](#srchandlerstoggle-donejs)
 - [listeners](#listeners)
   - [add-items.js](#srclistenersadd-itemsjs)
+  - [items-list.js](#srclistenersitems-listjs)
 - [logic](#logic)
 - [data.js](#srcdatajs)
 - [init.js](#srcinitjs)
@@ -34,6 +36,10 @@ Handler function define user interactions. They will:
 
 ### [./src/handlers/add-items.js](./src/handlers/add-items.js?study)
 
+---
+
+### [./src/handlers/toggle-done.js](./src/handlers/toggle-done.js?study)
+
 [TOP](#DOCS)
 
 ---
@@ -49,6 +55,10 @@ You can use the same handler in many different listeners, or add more than one l
 ---
 
 ### [./src/listeners/add-items.js](./src/listeners/add-items.js?study)
+
+---
+
+### [./src/listeners/items-list.js](./src/listeners/items-list.js?study)
 
 [TOP](#DOCS)
 
