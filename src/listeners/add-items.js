@@ -1,5 +1,7 @@
-import { addItem } from '../handlers/add-items.js';
-
-// And event when the users submit is going to be stored in the items
+'use strict';
 
 addItems.addEventListener('submit', addItem);
+
+itemsList.addEventListener('click', checkedDone);
+
+document.onload = addHandlerBtns();

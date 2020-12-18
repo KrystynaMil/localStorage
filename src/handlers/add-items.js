@@ -1,17 +1,37 @@
-'use strict';
+"use strict";
+/* Get Elements (with querySelector)*/
+const addItems = document.querySelector(".add-items");
+const itemsList = document.querySelector(".plates");
 
-// A handler that grab the users input and store in the data in variable items
+// use JSON.parse for converting to JS object from string
+//this variable
+const items = JSON.parse(localStorage.getItem("items")) || [];
 
-export  function addItem(e) {
-    e.preventDefault();
-    const text = (this.querySelector('[name=item]')).value;
-    const item = {
-      text,
-      done: false
-    };
+/* Write the function*/
 
-    items.push(item);
-    populateList(items, itemsList);
-    localStorage.setItem('items', JSON.stringify(items));
-    this.reset();
-  }
+ function addItem(event) {
+  debugger;
+
+  //to prevent reloading the page
+  event.preventDefault();
+
+  const value = this.querySelector("[name=item]").value;
+  console.log(value);
+  const item = {
+    value,
+    done: false,
+  };
+
+  //to add input value to our array
+  items.push(item);
+
+  // use inner html and show my list on user interface
+  addingText(items, itemsList);
+
+  //use local storage against refreshing
+  //use JSON,stringify for converting to string from JS object form
+  localStorage.setItem("items", JSON.stringify(items));
+
+  //to clean input again
+  this.reset();
+}
